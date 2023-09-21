@@ -17,4 +17,12 @@ void main()
   print("x*=y -> ${x*=y}");
   print("x/=y -> ${x/=y}");
   print("x~/=y -> ${x~/=y}");
+
+  //relational operator > < <= == !=
+  int i=100,j=23;
+  print('i>j -> ${i>j}');
+  print('i<j -> ${i<j}');
+  print('i>=j -> ${i>=j}');
+  print('i<=j -> ${i<=j}');
+  print('i!=j -> ${i!=j}');
 }
