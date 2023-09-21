@@ -38,4 +38,20 @@ void main()
   double k=100;
   print(k is int);
   print(k is! int);
+
+  //bitwise operator & | ^(xor) -to perform operations on binary values
+  //shift operators >> (right shift) <<(left shift operator)
+
+  // conditional operator
+  //1.expression/condition ?true statement : false statement;
+  //2.expression1 ?? expression2
+  //(if expression1 is null then expression2  will execute else expression1 willl execute)
+
+  var result = (username == 'Admin' && password =='abc123')?
+      'Welcome User' : 'Incorrect username or password';
+  print(result);
+
+  String? name='moosi';
+  var out = name?.length ?? "name is null";
+  print(out);
 }
