@@ -25,4 +25,17 @@ void main()
   print('i>=j -> ${i>=j}');
   print('i<=j -> ${i<=j}');
   print('i!=j -> ${i!=j}');
+
+  //logical operator && || !
+  String username = 'admin';
+  String password = 'abc123';
+  int otp = 1234;
+  print(username == 'Admin' && password == 'abc123');
+  print(username == 'Admin '&& password == 'abc123' || otp ==1234);
+  print(!(username == 'Admin' && password == 'abc123'));
+
+  //type test operator - is is!
+  double k=100;
+  print(k is int);
+  print(k is! int);
 }
