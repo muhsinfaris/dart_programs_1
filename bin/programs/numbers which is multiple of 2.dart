@@ -3,7 +3,7 @@ void main(){
 
   for(int number in list1){
     if(number % 2 ==0){
-      print('multiple');
+      print();
     }
   }
 

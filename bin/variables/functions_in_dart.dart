@@ -15,7 +15,7 @@ void func1(){
   print('Default function func1');
 }
 
-//user ddefined default function with return type(return type can be int,String,doubl,bool,list etc..)
+//user defined default function with return type(return type can be int,String,doubl,bool,list etc..)
 String func2(){
   String data='hi';
   return data;  //we can returnonly one value,type of value be similar to the return type of function
